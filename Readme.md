@@ -6,7 +6,7 @@ This module creates an S3 bucket and sets up CloudFront distribution for the buc
 
 ```
 module "app"{
-    source = "github.com/kodekloud/terraform-aws-s3-cloudfront"
+    source      = "git@github.com:bibek65/s3-cloudfront.git//modules/service/workflow" 
     bucket_name = "my-bucket"
 }
 ```
